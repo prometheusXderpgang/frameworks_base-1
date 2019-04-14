@@ -498,6 +498,9 @@ public class KeyguardStatusView extends GridLayout implements
         if (mClockView != null) {
             mClockView.setTextColor(color);
         }
+	if (mTextClock != null) {
+	    mTextClock.setTextColor(color);
+	}
     }
 
     private void updateClockDateColor() {
